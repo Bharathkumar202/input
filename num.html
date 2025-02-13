@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+   <p>first <input type="text" id="one" ></p>
+    <p>second <input type="text" id="two"  ></p>
+    <p ><input type="text" id="demo" name=""></p>
+    <button onclick="add()">Add</button>
+  
+    <script >
+        
+function add(){
+
+var num1,num2;
+var res;
+num1=parseInt(document.getElementById("one").value);
+num2=parseInt(document.getElementById("two").value);
+res=num1+num2;
+
+document.getElementById('demo').value=res;
+
+
+}
+    </script>
+
+</body>
+</html>
